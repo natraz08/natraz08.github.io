@@ -1,0 +1,169 @@
+
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #black;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+header {
+  background: rgba(0,0,0, .5);
+height: 860px;
+background: url(../images/pariss.jpg) no-repeat center center fixed;
+clear: both;
+}
+
+
+.navigation {
+background: rgb(240,235,220);
+height: 130px;
+clear: both;
+width: 100%;
+
+}
+
+.logo {
+padding-top: 50px;
+padding-left: 60px;
+
+}
+
+
+li {
+display: inline;
+float: right;
+padding: 40px;
+margin-right: 50px;
+font-size: 17px;
+padding-top: 60px;
+
+}
+
+
+.stats {
+
+padding: 150px;
+background: red;
+padding-top: 60px;
+text-align: center;
+
+}
+
+
+.second-section {
+height: 600px;
+text-align: center;
+
+}
+
+
+.secondcopy {
+font-size: 26px;
+padding-top: 20px;
+
+
+}
+
+.third-section {
+height: 780px;
+text-align: center;
+background: url(../images/caferouge.jpg) no-repeat center fixed;
+
+}
+
+.thirdcopy {
+  font-size: 36px;
+  padding-top: 350px;
+  color: white;
+
+}
+
+
+.fifth-section {
+height: 150px;
+text-align: center;
+background: rgb(0,0,51);
+
+}
+
+
+#main-container {
+    padding-top: 71px;
+    color: #fff;
+}
+
+#money-result, #trips-result {
+    font-weight: bold;
+}
+
+#results, #summary {
+    display: none;
+}
+
+.slide
+{
+    display: none;
+}
+/*
+form {
+    margin-top: 40%;
+}*/
